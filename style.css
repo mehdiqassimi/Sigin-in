@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+width: 100%;
+max-width: 100vh;
+position: relative;
+}
+.border{
+    background-color: transparent;
+    width: 400px;
+    height: 600px;
+    border: white 6px solid;
+    border-radius: 30px;
+    backdrop-filter: blur(0.4rem);
+    box-shadow: 0 0 40px lightskyblue;
+}
+.border:hover{
+  backdrop-filter: blur(0);
+  transition: 2s;
+}
+    body {
+      height: 100vh;
+      background-image: url('pexels-souvenirpixels-1519088.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+      color: white;
+        text-shadow: 0 0 16px lightskyblue;    }
+    label{
+        font-size: 30px;
+              color: white;
+        text-shadow: 0 0 16px lightskyblue;
+        margin-left: 10px;
+        position: relative;
+        top: 50px;
+    }
+    input{
+        border-radius: 25px;
+        height: 40px;
+        width: 360px;
+        background: transparent;
+        backdrop-filter: blur(0rem);
+        color: white;
+        text-shadow: 0 0 16px lightskyblue;
+        font-size: 20px;
+        border-bottom: white solid;
+        border-left: lightgray;
+        border-top:black solid;
+        border-right: none ;
+        position: relative;
+        top: 50px;
+    }
+    input::placeholder{
+        color: white;
+        opacity: 2;
+        text-shadow: 0 0 0;
+
+    }
+  button{
+    font-size: 30px;
+    width: 300px;
+    border-radius: 25px;
+    position: relative;
+    left: 50px;
+    top:100px;
+    background-color: transparent;
+    color: white;
+    text-shadow: 0 0 16px lightskyblue;
+    border: white solid;
+  }
