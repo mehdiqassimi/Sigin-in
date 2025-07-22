@@ -13,12 +13,8 @@ position: relative;
     height: 600px;
     border: white 6px solid;
     border-radius: 30px;
-    backdrop-filter: blur(0.4rem);
+    backdrop-filter: blur(0.5rem);
     box-shadow: 0 0 40px lightskyblue;
-}
-.border:hover{
-  backdrop-filter: blur(0);
-  transition: 2s;
 }
     body {
       height: 100vh;
